@@ -27,4 +27,23 @@
         user: null,
     };
     // your code here
+
+    document.getElementById("run").addEventListener("click",() => {
+
+        computers.forEach(element => {
+            if(element.available === undefined){
+                element.available = defaultProps.available;
+                
+            } 
+
+            if(element.user === undefined){
+                element.user = defaultProps.user;
+                
+            }
+            if(element.os === undefined){
+                element.os = defaultProps.os;
+            }
+        });
+            console.log(computers);
+    });
 })();

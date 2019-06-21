@@ -38,5 +38,22 @@
         "arboré",
     ]);
 
+
     // your code here
+
+    // bouton 
+
+    document.getElementById("run").addEventListener("click",() => {
+
+        let alea = Math.floor(Math.random()* 10);
+        console.log(birds[alea]);
+
+        if(fem.name == true){
+            console.log(birds[alea] +"e");
+        }
+                
+            
+        });
+    });
+
 })();

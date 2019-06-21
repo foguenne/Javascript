@@ -11,4 +11,18 @@
 
 (() => {
     // your code here
+  
+    //click button 
+
+    document.getElementById("run").addEventListener("click",() => {
+    
+    const thomas = {
+        lastname: "Foguenne",
+        firstname: "thomas",
+        age: 25,
+        city: "Liège",
+        country: "Belgium"
+    };
+    console.log(thomas);
+});
 })();

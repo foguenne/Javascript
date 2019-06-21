@@ -23,4 +23,11 @@
     ]);
 
     // your code here
+    document.getElementById("run").addEventListener("click",() => {
+
+         console.log(people);
+
+    console.log(people.has("Alexandre"));
+
+    });
 })();

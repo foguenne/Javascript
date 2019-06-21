@@ -28,4 +28,15 @@
     ];
 
     // your code here
+    let fruitsFinish = [];
+    document.getElementById("run").addEventListener("click",() => {
+ 
+        for(let i = 0 ; i < fruits.length ; i++){
+            if(fruitsFinish.includes(fruits[i]) == false){
+                fruitsFinish.push(fruits[i]);
+            }
+            console.log(i)
+        }
+        console.log(fruitsFinish);
+    });
 })();

@@ -26,4 +26,17 @@
     ];
 
     // your code here
+
+    document.getElementById("run").addEventListener("click",() => {
+       fruits.forEach(fruit =>{
+            if(fruit == "pomme")
+            console.log("yes");   
+       });
+       
+       // Autre méthode
+
+       if(fruits.indexOf("pomme") > -1){
+           console.log("Oui");
+       }
+    });
 })();

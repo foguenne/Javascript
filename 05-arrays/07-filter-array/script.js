@@ -89,4 +89,21 @@
     ];
 
     // your code here
+
+    document.getElementById("run").addEventListener("click",() => {      // Au clique sur le bouton
+        
+        let people2 = [];
+        people.forEach(element => {
+            if(element.age > 18)
+            {
+            people2.push(element);
+            
+
+            }
+            
+        });
+        
+        console.log(people2);
+         
+    });
 })();
